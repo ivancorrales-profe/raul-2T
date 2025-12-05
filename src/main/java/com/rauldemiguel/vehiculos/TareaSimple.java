@@ -36,6 +36,8 @@ public class TareaSimple {
 			System.out.println("La tarea NO esta completada");
 		}
 			
+	}
+		
 		
 		public void cambiarEstado() {
 			if (this.encontrada) {
