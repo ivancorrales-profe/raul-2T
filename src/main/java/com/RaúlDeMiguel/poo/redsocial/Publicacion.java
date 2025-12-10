@@ -70,15 +70,27 @@ public class Publicacion {
 
 
 public void mostrar() {
-System.out.println();
+System.out.println(this.texto);
+System.out.println(this.likes);
+System.out.println(this.hora);
 	
 }
-	
+	public void darLike() {
+		this.likes +=likes;
+		System.out.println(likes);
+	}
 	
 
+	public int verLike() {
+		return this.likes;
+	}
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+		
+		
+		
 	}
 
 }
